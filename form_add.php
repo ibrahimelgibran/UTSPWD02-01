@@ -4,14 +4,14 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <link rel="icon" href="img/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, mimatakuliahum-scale=1, maximum-scale=1">
   <title>crud dashboard</title>
+  <link rel="icon" href="img/logo.png">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <!----css3---->
-  <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="./css/custom.css">
 
 
   <!--google fonts -->
@@ -31,25 +31,25 @@
 
   <div class="wrapper">
 
-
     <div class="body-overlay"></div>
-
-    <!-------------------------sidebar------------>
+    <!-------------------------------------------Sidebar Start---------------------------------------------->
     <!-- Sidebar  -->
     <nav id="sidebar">
       <div class="sidebar-header">
-        <h3><img src="../img/logo.png" class="img-fluid" /><span>Dashboard RPS</span></h3>
+        <a href="home.php">
+          <h3><img src="img/logo.png" class="img-fluid" /><span>Dashboard RPS</span></h3>
+        </a>
       </div>
       <ul class="list-unstyled components">
         <li class="active">
-          <a href="#" class="dashboard"><i class="material-icons">dashboard</i>
+          <a href="./home.php" class="dashboard"><i class="material-icons">dashboard</i>
             <span>Dashboard</span></a>
         </li>
 
 
         <li class="dropdown">
           <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-            <i class="material-icons">apps</i><span>widgets</span></a>
+            <i class="material-icons">group</i><span>Daftar Dosen</span></a>
           <ul class="collapse list-unstyled menu" id="pageSubmenu2">
             <li>
               <a href="#">Page 1</a>
@@ -66,7 +66,7 @@
 
         <li class="dropdown">
           <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-            <i class="material-icons">extension</i><span>ui element</span></a>
+            <i class="material-icons">extension</i><span>Template RPS</span></a>
           <ul class="collapse list-unstyled menu" id="pageSubmenu4">
             <li>
               <a href="#">Page 1</a>
@@ -114,7 +114,7 @@
         </li>
 
         <li class="">
-          <a href="#"><i class="material-icons">date_range</i><span>copy</span></a>
+          <a href="#"><i class="material-icons">date_range</i><span>Jadwal</span></a>
         </li>
 
         <li class="">
@@ -124,9 +124,9 @@
 
 
       </ul>
-
-
     </nav>
+    <!------------------------------------------- Sidebar END---------------------------------------------->
+
 
 
 
@@ -158,7 +158,7 @@
                   <div class="input-group">
                     <input type="search" class="form-control" placeholder="Search">
                     <div class="input-group-append">
-                      <button class="btn" type="submit" id="button-addon2">GO</button>
+                      <button class="btn" type="submit" id="button-addon2">IEGCODE</button>
                     </div>
                   </div>
                 </form>
@@ -176,16 +176,16 @@
                         <span class="material-icons">notifications</span> </a>
                       <ul class="dropdown-menu">
                         <li>
-                          <a href="#">You have 5 new messages</a>
+                          <a href="#">Ada pembaruan RPS !</a>
                         </li>
                         <li>
-                          <a href="#">You're now friend with Mike</a>
+                          <a href="#">Ada pembaruan Jadwal !</a>
                         </li>
                         <li>
-                          <a href="#">Wish Mary on her birthday!</a>
+                          <a href="#">Ada pembaruan SKS !</a>
                         </li>
                         <li>
-                          <a href="#">5 warnings in Server Console</a>
+                          <a href="#">Ada pembaruan Materi !</a>
                         </li>
 
                       </ul>
@@ -198,7 +198,7 @@
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link" href="#" data-toggle="dropdown">
-                        <img src="../img/me.png" style="width:40px; border-radius:50%;" />
+                        <img src="img/me.png" style="width:40px; border-radius:50%;" />
                         <span class="xp-user-live"></span>
                       </a>
                       <ul class="dropdown-menu small-menu">
@@ -216,7 +216,7 @@
                             </span>Settings</a>
                         </li>
                         <li>
-                          <a href="login.php"><span class="material-icons">
+                          <a href="index.html"><span class="material-icons">
                               logout</span>Logout</a>
                         </li>
                       </ul>
@@ -238,7 +238,7 @@
           <h4 class="page-title">Dashboard Create RPS</h4>
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Booster</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+            <li class="breadcrumb-item active" aria-current="page"><a href="home.php">Dashboard</a></li>
           </ol>
         </div>
 
@@ -256,28 +256,28 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav nav-tabs" style="font-size: 13.5px;">
               <li class="nav-item">
-                <a class="nav-link " href="/create_rps.php">Header RPS</a>
+                <a class="nav-link active" aria-current="page" href="#">Halaman RPS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./identitas_rps.php">Identitas RPS</a>
+                <a class="nav-link " href="./view_data.php">Identitas RPS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="gambaran_umum.php">Gambaran Umum</a>
+                <a class="nav-link" href="form_edit_data.php">Edit Data</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="capaian_pembelajaran.php">Capaian Pembelajaran</a>
+                <a class="nav-link" href="#">Capaian Pembelajaran</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./prasyarat.php">Prasyarat</a>
+                <a class="nav-link" href="#">Prasyarat</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./unit_pembelajaran.php">Unit-Unit Pembelajaran</a>
+                <a class="nav-link" href="#">Unit-Unit Pembelajaran</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./tugas_aktifitas.php">Tugas/Aktifitas</a>
+                <a class="nav-link" href="#">Tugas/Aktifitas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./referensi.php">Referensi</a>
+                <a class="nav-link" href="#">Referensi</a>
               </li>
             </ul>
           </div>
@@ -295,45 +295,64 @@
 
               <br>
 
-              <h3>Informasi Header RPS</h3>
+              <h3 id="rps-1">Informasi RPS</h3>
 
-              <form action="/action_page.php">
-                <!-- <div class="form-group">
-                        <label for="email">Nama Prodi:</label>
-                        <input type="text" class="form-control" id="nm_prodi" name="nm_prodi">
-                      </div> -->
+              <div class="mx-auto">
+                <!-- untuk memasukkan data -->
+                <div class="card">
+                  <div class="card-header">
+                    Create / Add Data
+                  </div>
+                  <div class="center-container">
+                    <form action="add.php" method="post">
+                      <table class="table">
+                        <tr>
+                          <td class="kecilin"><label for="nik">NIM</label></td>
+                          <td class="td">: <input class="input" type="text" name="nik" placeholder="Masukan NIM" /></td>
+                        </tr>
+                        <tr>
+                          <td class="kecilin"><label for="nama_mahasiswa">Nama</label></td>
+                          <td class="td">: <input class="input" type="text" name="nama_mahasiswa" placeholder="Nama Lengkap" /></td>
+                        </tr>
+                        <tr>
+                          <td class="kecilin"><label for="judul_mahasiswa">Judul Matakuliah</label></td>
+                          <td class="td">: <input class="input" type="text" name="judul_mahasiswa" placeholder="Masukan Matakuliah" /></td>
+                        </tr>
+                        <tr>
+                          <td class="kecilin"><label for="deskripsi_mahasiswa">Deskripsi</label></td>
+                          <td class="td">: <input class="input" type="text" name="deskripsi_mahasiswa" placeholder="Deskripsi Judul" /></td>
+                        </tr>
+                        <tr>
+                          <td class="kecilin"><label for="prodi_mahasiswa">Prodi Anda</label></td>
+                          <td class="td">:
+                            <select name="prodi_mahasiswa">
+                              <option>D3 TEKNIK INFOMATIKA</option>
+                              <option>D3 MANAJEMENT INFOMATIKA</option>
+                              <option>S1 INFOMATIKA</option>
+                              <option>S1 TEKNIK KOMPUTER</option>
+                            </select>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">
+                            <input style="background-color: #3EC70B; color: white;" class="btn btn-sm" type="submit" value="Tambah" name="daftar" />
+                            <input style="background-color: #D80032; color: white;" class="btn btn-sm" type="button" value="Gak Jadi" onclick="window.location.href='./home.php'" />
+                            <input style="background-color: #3c79f5; color: white;" class="btn btn-sm" type="button" value="Cek View Data" onclick="window.location.href='./view_data.php'" />
 
-                <div class="form-group">
-                  <label for="sel1">Select list (select one):</label>
-                  <select class="form-control" id="sel1">
-                    <option>D3 Teknik Informatika</option>
-                    <option>D3 Manajemen Informatika</option>
-                    <option>S1 Informatika</option>
-                    <option>S1 Sistem Informasi</option>
-                  </select>
+                          </td>
+                          <td></td>
+                        </tr>
+                      </table>
+                    </form>
+                  </div>
+
+
                 </div>
 
-                <div class="form-group">
-                  <label for="pwd">Nama Matakuliah:</label>
-                  <input type="text" class="form-control" id="nm_matkul">
-                </div>
-                <div class="form-group">
-                  <label for="pwd">Kode Matakuliah:</label>
-                  <input type="text" class="form-control" id="kd_matkul">
-                </div>
-                <div class="form-group">
-                  <label for="pwd">Nama Penyusun:</label>
-                  <input type="text" class="form-control" id="penyusun">
-                </div>
-
-                <div class="checkbox">
-                  <label><input type="checkbox"> Remember me</label>
-                </div>
-                <button type="submit" class="btn btn-default">Submit</button>
-              </form>
-
+              </div>
             </div>
           </div>
+
 
 
         </div>
@@ -352,6 +371,13 @@
   </div>
   </div>
 
+  <footer class="footer mt-3">
+    <div class="container-fluid">
+      <div class="footer-in">
+        <p class="mb-0">Ibrahim El Gibran - 22.01.4774</p>
+      </div>
+    </div>
+  </footer>
 
   <!----------html code compleate----------->
 
@@ -390,4 +416,5 @@
 
 
 </body>
+
 </html>

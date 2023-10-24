@@ -37,7 +37,7 @@
       <!-- Sidebar  -->
       <nav id="sidebar">
         <div class="sidebar-header">
-          <h3><img src="img/logo.png" class="img-fluid" /><span>Dashboard RPS</span></h3>
+        <a href="home.php"><h3><img src="img/logo.png" class="img-fluid" /><span>Dashboard RPS</span></h3></a>
         </div>
         <ul class="list-unstyled components">
           <li class="active">
@@ -157,7 +157,7 @@
                     <div class="input-group">
                       <input type="search" class="form-control" placeholder="Search">
                       <div class="input-group-append">
-                        <button class="btn" type="submit" id="button-addon2">GO</button>
+                        <button class="btn" type="submit" id="button-addon2">IEGCODE</button>
                       </div>
                     </div>
                   </form>
@@ -213,7 +213,7 @@
                             <a href="#"><span class="material-icons">settings</span>Settings</a>
                           </li>
                           <li>
-                            <a href="login.php"><span class="material-icons">logout</span>Logout</a>
+                            <a href="index.html"><span class="material-icons">logout</span>Logout</a>
                           </li>
                         </ul>
                       </li>
@@ -253,7 +253,7 @@
                       <h2 class="ml-lg-2">Manage RPS</h2>
                     </div>
                     <div class="col-sm-6 p-0 d-flex justify-content-lg-end justify-content-center">
-                      <a href="create_rps.php"><button class="btn btn-success btn-create">Create RPS</button></a>
+                      <a href="form_add.php"><button class="btn btn-success btn-create">Create RPS</button></a>
                       <a href="#deleteEmployeeModal" class="btn btn-danger" data-toggle="modal">
                         <i class="material-icons">&#xE15C;</i> <span>Delete</span></a>
                     </div>
@@ -280,12 +280,12 @@
                           <label for="checkbox1"></label>
                         </span>
                       </td>
-                      <td>Perancangan Web</td>
-                      <td>2</td>
+                      <td>PWEB 2 01</td>
+                      <td>3</td>
                       <td>2T 2P</td>
-                      <td><a href="">RPS_perancangan_web1.docx</a< /td>
+                      <td><a href="https://assignment.amikom.ac.id/20231/20231019/dc1f779d-376e-ee11-8366-a76220400cd7_DT170_20231019112625.docx">Pengertian_Website.docx</a< /td>
                       <td>
-                        <a href="./page/view.php">
+                        <a href="./page/view_rps.php">
                           <i class="material-icons" data-toggle="tooltip" title="View">&#xe8f4;</i></a>
                         <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                           <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -300,12 +300,12 @@
                           <label for="checkbox2"></label>
                         </span>
                       </td>
-                      <td>Perancangan Web</td>
-                      <td>2</td>
+                      <td>PWEB 2 01</td>
+                      <td>3</td>
                       <td>2T 2P</td>
-                      <td><a href="">RPS_perancangan_web1.docx</a< /td>
+                      <td><a href="https://assignment.amikom.ac.id/20231/20231019/dc1f779d-376e-ee11-8366-a76220400cd7_DT170_20231019112625.docx">Variable.docx</a< /td>
                       <td>
-                        <a href="/page/view.php">
+                        <a href="./page/view_rps.php">
                           <i class="material-icons" data-toggle="tooltip" title="View">&#xe8f4;</i></a>
                         <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                           <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -320,12 +320,12 @@
                           <label for="checkbox3"></label>
                         </span>
                       </td>
-                      <td>Perancangan Web</td>
-                      <td>2</td>
+                      <td>PWEB 2 01</td>
+                      <td>3</td>
                       <td>2T 2P</td>
-                      <td><a href="">RPS_perancangan_web1.docx</a< /td>
+                      <td><a href="https://assignment.amikom.ac.id/20231/20231019/dc1f779d-376e-ee11-8366-a76220400cd7_DT170_20231019112625.docx">Percabangan.docx</a< /td>
                       <td>
-                        <a href="/page/view.php">
+                        <a href="./page/view_rps.php">
                           <i class="material-icons" data-toggle="tooltip" title="View">&#xe8f4;</i></a>
                         <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                           <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -340,12 +340,12 @@
                           <label for="checkbox4"></label>
                         </span>
                       </td>
-                      <td>Perancangan Web</td>
-                      <td>2</td>
+                      <td>PWEB 2 01</td>
+                      <td>3</td>
                       <td>2T 2P</td>
-                      <td><a href="">RPS_perancangan_web1.docx</a< /td>
+                      <td><a href="https://assignment.amikom.ac.id/20231/20231019/dc1f779d-376e-ee11-8366-a76220400cd7_DT170_20231019112625.docx">Perulangan.docx</a< /td>
                       <td>
-                        <a href="/page/view.php">
+                        <a href="./page/view_rps.php">
                           <i class="material-icons" data-toggle="tooltip" title="View">&#xe8f4;</i></a>
                         <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                           <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -360,12 +360,12 @@
                           <label for="checkbox5"></label>
                         </span>
                       </td>
-                      <td>Perancangan Web</td>
-                      <td>2</td>
+                      <td>PWEB 2 01</td>
+                      <td>3</td>
                       <td>2T 2P</td>
-                      <td><a href="">RPS_perancangan_web1.docx</a< /td>
+                      <td><a href="https://assignment.amikom.ac.id/20231/20231019/dc1f779d-376e-ee11-8366-a76220400cd7_DT170_20231019112625.docx">Function.docx</a< /td>
                       <td>
-                        <a href="/page/view.php">
+                        <a href="./page/view_rps.php">
                           <i class="material-icons" data-toggle="tooltip" title="View">&#xe8f4;</i></a>
                         <a href="#editEmployeeModal" class="edit" data-toggle="modal">
                           <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
@@ -380,8 +380,7 @@
                   <ul class="pagination">
                     <li class="page-item disabled"><a href="#">Previous</a></li>
                     <li class="page-item active"><a href="#" class="page-link">1</a></li>
-                    <li class="page-item"><a href="#" class="page-link">2</a></li>
-                    <li class="page-item"><a href="#" class="page-link">2</a></li>
+                    <li class="page-item"><a href="pagemateri2.php" class="page-link">2</a></li>
                     <li class="page-item"><a href="#" class="page-link">4</a></li>
                     <li class="page-item"><a href="#" class="page-link">5</a></li>
                     <li class="page-item"><a href="#" class="page-link">Next</a></li>
@@ -440,7 +439,7 @@
                       </div>
                       <div class="form-group">
                         <label>Semester</label>
-                        <input type="email" class="form-control" required>
+                        <input type="text" class="form-control" required>
                       </div>
                       <div class="form-group">
                         <label>Bobot SKS</label>
@@ -520,25 +519,6 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
-
-
-    <script type="text/javascript">
-      $(document).ready(function() {
-        $(".xp-menubar").on('click', function() {
-          $('#sidebar').toggleClass('active');
-          $('#content').toggleClass('active');
-        });
-
-        $(".xp-menubar,.body-overlay").on('click', function() {
-          $('#sidebar,.body-overlay').toggleClass('show-nav');
-        });
-
-      });
-    </script>
-
-
-
-
 
   </body>
 

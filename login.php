@@ -1,37 +1,17 @@
-<!DOCTYPE html>
-<link rel="icon" href="img/logo.png" />
-<html lang="en" dir="ltr">
+<?php
 
-<head>
-  <meta charset="utf-8" />
-  <title>Login</title>
-  <link rel="stylesheet" href="./css/login.css" />
-</head>
+require 'config.php';
 
-<body>
-  <div class="center">
-    <h1>Login Dashboard</h1>
-    <form method="post">
-      <div class="txt_field">
-        <input type="text" required />
-        <span></span>
-        <label>Username</label>
-      </div>
-      <div class="txt_field">
-        <input type="password" required />
-        <span></span>
-        <label>Password</label>
-      </div>
-      <div class="pass">Forgot Password?</div>
-      <div class="button">
-        <a href="./home.php">Login</a>
-      </div>
+$email = $_POST["email"];
+$password = $_POST["password"];
 
-      <div class="signup_link">
-        Register Member? <a href="sign_login.php">Signup</a>
-      </div>
-    </form>
-  </div>
-</body>
+$query_sql = "SELECT * FROM tbl_users WHERE email = '$email' AND password ='$password'";
 
-</html>
+$result = mysqli_query($koneksi, $query_sql);
+if (mysqli_num_rows($result) > 0) {
+    header("Location: home.php");
+} else {
+   header("Location: ./page/gagal_login.php?app=gagal");
+}
+
+?>
