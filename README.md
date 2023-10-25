@@ -12,4 +12,4 @@ https://lucid.app/lucidchart/c0b903e2-ece4-4372-84ad-30964f5c9def/edit?viewport_
 
 ## Next Image from EDR FlowChard
 
-<img src="img/EDR-CRUD4774.png"></img>
+<img src="img/edr-crud4774.png"></img>
