@@ -6,7 +6,7 @@ Final Project UTS Semester 3, <br>
 
 ## Next Image from EDR FlowChard
 
-<img src="img/edrcrud4774.png"></img>
+<img src="img/edr-crud4774.png"></img>
 
 Link FlowChard or EDR
 
